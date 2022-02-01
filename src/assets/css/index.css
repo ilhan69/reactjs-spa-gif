@@ -1,0 +1,124 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin:0;
+  background-color: beige;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  background-color: aquamarine;
+}
+
+footer {
+  background-color: darkturquoise;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+footer .content {
+  padding: 50px;
+}
+
+header a {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0 5px;
+  color: black;
+}
+
+header .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.gif-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gif-items>* {
+  flex: 1 1 20%;
+  margin: 30px;
+}
+.gif-items>* img {
+  max-height: 250px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.vt-separator {
+  margin-left: 15px;
+  margin-right: 10px;
+  padding: 5px;
+  height: 40px;
+  border-left: 5px solid black;
+}
+
+.ht-separator {
+  height: 20px;
+  margin: 10px;
+}
+
+.container {
+  padding: 100px 200px 100px 200px;
+  min-height: 620px;
+}
+
+.searchbox {
+  padding: 10px;
+  width: 250px;
+  border-style: solid;
+  border-color: blueviolet;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.searchbox:focus {
+  outline: none;
+}
+
+.searchbutton {
+  padding: 10px;
+  width: auto;
+  border-style: solid;
+  border-color: blueviolet;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left-width: 0;
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px;
+  width: auto;
+  border-style: solid;
+  border-color: blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+}
